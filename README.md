@@ -1,4 +1,4 @@
-# Final project for ITF Manual Testing Course
+# Proiectul final de Testare Manuala si Testare Automata din cadrul cursului ITFactory
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application. 
 
