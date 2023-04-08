@@ -1,21 +1,21 @@
 # Proiectul final de Testare Manuala si Testare Automata din cadrul cursului ITFactory
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application. 
+Scopul acestui proiect final din cadrul ITF Testare Manuala este de a ne folosi toate cunostintele acumulate pe parcusul cursului si de a le aplica in practica, folosind o aplicatie in timp real.
 
-Application under test: 
+Aplicatii pe care le vom testa:
 
-API Documentation: 
+Documentatie API: 
 
-**The final project will be split into 2 sections: [Testing section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#1-testing-section) and [SQL section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
+**Proiectul final va fi impartit in doua categorii: ["Sectiunea Testare"](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/edit/main/README.md#1-sectiunea-testare) and ["Sectiunea SQL"](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/edit/main/README.md#2-sectiunea-sql).**
 
 Tools used:
 
 # Functional specifications
 
--> enter here the functional specifications created in JIRA
+-> Aici vor fi introduse specificatiile functionale create in JIRA
 
 
-# 1 Testing section
+# 1 Sectiunea "Testare
 
 ## 1.1 Test Planning
 
@@ -86,5 +86,5 @@ The following elements are needed to be ready before the test execution phase be
 
 -> enter here test execution report/chart
 
-# 2 SQL section
+# 2 Sectiunea SQL
 
