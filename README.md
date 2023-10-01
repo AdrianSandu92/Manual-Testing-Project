@@ -119,11 +119,11 @@ Test monitoring and control will be done by generating periodic reports that ref
 
 The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
  *  Verify user registration process
-- Validate login functionality
-- Test user profile update
-- Verify password reset functionality
-- Validate user dashboard features
-- Test user account settings
+ - Validate login functionality
+ - Test user profile update
+ - Verify password reset functionality
+ - Validate user dashboard features
+ - Test user account settings
 
 ## 1.4 Test Design
 
@@ -154,22 +154,31 @@ Example of test case with examples can be found here: [AS-2.pdf]()
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* enter here what needs to be ready for the test execution to begin
+* The following elements need to be ready before the test execution phase begins:
+- Test environment setup
+- Test data availability
+- Test scripts and automation tools configured (JIRA, Zephyr Squad)
 
 ## 1.6 Test Execution
+* Test cases are executed on the created test cycle. A summary of the test executions can be found in the document:
+  [Jira.doc]()
 
-* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf]()
-    *  enter here bug titles
+
+* Bugs have been created based on the failed tests. Bug titles:
+
+  - Problems displaying header at different resolutions (Responsiveness bug)
+  - The website no longer displays error details after generating verification code
+  - The quantity field accept letters and special characters
+  - Email validation rules don't work
+  - Forgot password function is actually generate new password
+  - Users can create accounts with less than 8 characters on password field
+ The complete bug reports can be found here: [Bugs.doc]()
 
 
 ## 1.7 Test Completion
 
 * Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
-* Test execution chart was generated, the final report shows.... -> describe the final report
-
--> enter here test execution report/chart
-
-# 2 SQL section
+* The traceability matrix was generated and can be found here: [matrix.png]()
+* Test execution chart was generated and can be found here: [testex.png]()
+* The final report shows that 14 tests were valid and 1 was failed.
 
