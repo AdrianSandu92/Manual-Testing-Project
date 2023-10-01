@@ -148,7 +148,7 @@ are:
 - AS-19 Verify if the user can search products by universal name or product code
 - AS-21 Verify if the user can find parts for a specific car
 - AS-33 Verify the GUI elements from the website
-Example of test case with examples can be found here: [AS-2.pdf](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/AS-2.pdf)
+Example of test case with examples can be found here: [AS-2.pdf](https://github.com/AdrianSanduroiect-practic-testare-manuala/blob/main/AS-2.pdf)
 
 ## 1.5 Test Implementation
 
@@ -172,7 +172,7 @@ The following elements are needed to be ready before the test execution phase be
   - Email validation rules don't work
   - Forgot password function is actually generate new password
   - Users can create accounts with less than 8 characters on password field
- The complete bug reports can be found here: [Bugs.doc](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/Bugs.doc)
+ The complete bug reports can be found here: [Bugs.pdf](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/Bugs.pdf)
 
 
 ## 1.7 Test Completion
