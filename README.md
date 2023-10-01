@@ -4,7 +4,7 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 
 Application under test: <a href="https://autokarma.ro" target="_blank">Autokarma.ro website</a>
 
-Tools used: JIRA
+Tools used: JIRA, Zephyr Squad
 
 # Functional specifications
 
