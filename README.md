@@ -65,13 +65,14 @@ The plan identifies the items to be tested, the features to be tested, the types
 - Adrian Sandu (QA engineer)
 
 #### 1.1.2 Entry criteria defined
-- The requirement document should be available. 
+- Initial project risks were detected and mitigated
+- The requirement document should be available.
 - Complete understanding of the application flow is required.
-- Test plan must be complete
-
+  
 #### 1.1.3 Exit criteria defined
 All high-priority defects are fixed and retested
 - Test coverage meets the predefined criteria
+- All the test have been executed
 - Acceptance criteria are met
 - The product is stable and meets performance criteria
   
@@ -92,21 +93,16 @@ All high-priority defects are fixed and retested
   - Regression testing
 
 
-#### 1.1.5 Risks detected and solutions
+#### 1.1.5 Risks detected
 
 * Project risks:
-  - Resource constraints: Evaluate the availability of essential resources like hardware, software licenses, and testing environments.
-  - Schedule delays: Identify potential bottlenecks or delays in development, testing, or other project phases.
-  - Communication gaps with providers: Maintain open channels of communication with third-party service providers or vendors.
-  - The risk of not having enough employees: Anticipate potential workload increases and hire or allocate resources accordingly.
-  - Problems with courier companies: Monitor the performance of courier companies and address any problems affecting product delivery promptly.
+  - Lack of experience of the QA engineer
+  - Resource constraints: Short deadline of Zephyr Squad trial, unavailability of test environment.
+  - Schedule delays: Bottlenecks or delays in testing phases.
   
 * Product risks:
-  - Servers malfunction: Develop a contingency plan for quick server recovery in the event of a malfunction.
-  - Database errors: Implement proper backup and restore procedures to recover from database errors.
-  - Security risks: Perform comprehensive security testing, including penetration testing and vulnerability assessments.
-  - Compatibility issues with certain browsers: Execute extensive cross-browser testing to identify and resolve compatibility issues.
-  - Functional defects: Execute rigorous functional testing to identify and report defects.
+  - Compatibility issues with certain browsers: Internet Explorer, Opera browser
+  - Layout issues: Website is not displayed properly with some browser resolutions
 
 #### 1.1.6 Evaluating entry criteria
 
@@ -115,22 +111,40 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 ## 1.2 Test Monitoring and Control
 
 Test monitoring and control will be done by generating periodic reports that reflect the current status of the tests.
-<img src="https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/testexecutions.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testexecutions.png"/>
 
 ## 1.3 Test Analysis
 
 The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
- *  Verify user registration process
- - Validate login functionality
- - Test user profile update
- - Verify password reset functionality
- - Validate user dashboard features
- - Test user account settings
+ *  Verify user registration process:
+- Ensure that the registration form is accessible and loads correctly.
+- Test all mandatory fields (e.g., name, email, password) for validation, ensuring they are required and correctly validated (e.g., email format, password strength).
+- Verify that the registration form submission successfully creates a new user account.
+- Verify if the system is sending registration link to the user.
+- Verify if the link is working properly and the system register the user into the database.
+
+ * Validate login functionality:
+- Confirm that the login page is accessible and loads without errors.
+- Verify that registered users can log in successfully using their valid credentials.
+- Test login with invalid credentials to ensure appropriate error messages are displayed.
+- Check for security measures like account lockout after a certain number of failed login attempts.
+
+* Test user profile section:
+ - Ensure that users can access and edit their profiles after logging in.
+- Validate that changes made to the user's profile (e.g., name, email, profile picture) are saved correctly.
+- Verify that profile updates are reflected and displayed accurately in the user dashboard and elsewhere in the application.
+
+* Verify password reset functionality:
+ - Test the "Forgot Password" or "Reset Password" functionality.
+ - Verify that users receive password reset emails with valid reset links.
+ - Confirm that users can reset their passwords successfully by following the reset link.
+ - Ensure that the old password is invalidated upon resetting.
+
 
 ## 1.4 Test Design
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
-are:
+are: Use case testing, boundry-value analysis, negative testing.
 1. User Registration Test Case
 2. Login Functionality Test Case
 3. User Profile Update Test Case
