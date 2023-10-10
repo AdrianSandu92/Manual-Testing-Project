@@ -111,7 +111,8 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 ## 1.2 Test Monitoring and Control
 
 Test monitoring and control will be done by generating periodic reports that reflect the current status of the tests.
-<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testcases.png"/>
+
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testexecutions.png" />
 
 ## 1.3 Test Analysis
 
@@ -148,7 +149,7 @@ are: Use case testing, boundry-value analysis, negative testing.
 
 
 **Test cases:**
-<img src="https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/testcases.png?raw=true"/ >
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testcases.png"/>
 
 Example of test case with examples can be found here: [example](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/AS-2.pdf)
 
