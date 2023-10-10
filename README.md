@@ -62,11 +62,12 @@ The Test Plan is designed to describe all details of testing for the __Users are
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed and the risks associated with the plan
 
 #### 1.1.1 Roles assigned to the project and persons allocated
-- Adrian Sandu (ITF coursant)
+- Adrian Sandu (QA engineer)
 
 #### 1.1.2 Entry criteria defined
-- Availability of the test environment
-- Test data prepared and available
+- The requirement document should be available. 
+- Complete understanding of the application flow is required.
+- Test plan must be complete
 
 #### 1.1.3 Exit criteria defined
 All high-priority defects are fixed and retested
@@ -91,21 +92,21 @@ All high-priority defects are fixed and retested
   - Regression testing
 
 
-#### 1.1.5 Risks detected
+#### 1.1.5 Risks detected and solutions
 
 * Project risks:
-  - Resource constraints
-  - Schedule delays
-  - Communication gaps with providers
-  - The risk of not having enough employees
-  - Problems with courier companies
+  - Resource constraints: Evaluate the availability of essential resources like hardware, software licenses, and testing environments.
+  - Schedule delays: Identify potential bottlenecks or delays in development, testing, or other project phases.
+  - Communication gaps with providers: Maintain open channels of communication with third-party service providers or vendors.
+  - The risk of not having enough employees: Anticipate potential workload increases and hire or allocate resources accordingly.
+  - Problems with courier companies: Monitor the performance of courier companies and address any problems affecting product delivery promptly.
   
 * Product risks:
-  - Servers malfunction
-  - Database errors
-  - Security risks
-  - Compatibility issues with certain browsers
-  - Functional defects
+  - Servers malfunction: Develop a contingency plan for quick server recovery in the event of a malfunction.
+  - Database errors: Implement proper backup and restore procedures to recover from database errors.
+  - Security risks: Perform comprehensive security testing, including penetration testing and vulnerability assessments.
+  - Compatibility issues with certain browsers: Execute extensive cross-browser testing to identify and resolve compatibility issues.
+  - Functional defects: Execute rigorous functional testing to identify and report defects.
 
 #### 1.1.6 Evaluating entry criteria
 
@@ -113,7 +114,8 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 
 ## 1.2 Test Monitoring and Control
 
-Test monitoring and control will be done by generating periodic reports that reflect the current status of the test.
+Test monitoring and control will be done by generating periodic reports that reflect the current status of the tests.
+<img src="https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/testexecutions.png?raw=true"/>
 
 ## 1.3 Test Analysis
 
