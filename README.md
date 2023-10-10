@@ -161,8 +161,8 @@ All the test cases exported into a xlsx can be downloaded from this [link](https
 - Test scripts and automation tools configured (JIRA, Zephyr Squad)
 
 ## 1.6 Test Execution
-* Test cases are executed on the created test cycle. A summary of the test executions can be found in the document:
-  [Jira.doc]()
+* Test cases are executed on the created test cycle. A summary of the test executions can be found in this example:
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/cycle.png"/>
 
 
 * Bugs have been created based on the failed tests. Bug titles:
@@ -173,13 +173,38 @@ All the test cases exported into a xlsx can be downloaded from this [link](https
   - Email validation rules don't work
   - Forgot password function is actually generate new password
   - Users can create accounts with less than 8 characters on password field
- The complete bug reports can be found here: [Bugs.pdf](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/Bugs.pdf)
+    
+ The complete bug reports can be found here: [Bugs.pdf](https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/Bugs.pdf)
 
 
 ## 1.7 Test Completion
 
 * Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [matrix.png](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/matrix.png)
-* Test execution chart was generated and can be found here: [testex.png](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/testex.png)
+* The traceability matrix was generated and can be found here:
+
+  
+  <img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/matrix.png"/>
+
+
+  
+* Test execution chart was generated and can be found here:
+
+
+
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testex.png"/>
+
 * The final report shows that 14 tests were valid and 1 was failed.
+
+## 1.7 Conclusion
+
+I had the opportunity to explore the website of a company that had shone in the Romanian auto parts market for nearly three decades. With an impressive history and a solid reputation, this company represented a benchmark in the industry. 
+
+With my experience in software testing, I approached this website with a critical eye, ready to identify any issues that could affect its functionality or the user experience. Although the website seemed well-put-together at first glance, I knew that no software product is flawless, and the existence of potential problems was inevitable.
+
+While I did not identify any major errors that would threatening the website's functionality or prevent users from ordering auto parts, I did uncover some minor issues and non-compliances.
+
+All 13 test cases planned for execution were verified after testing. A total number of 6 bugs were found, and their priority is:
+- High priority: 2 bugs found;
+- Medium priority: 2 bugs found;
+- Low priority: 2 bugs found.
 
