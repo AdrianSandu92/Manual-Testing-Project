@@ -174,7 +174,7 @@ All the test cases exported into a xlsx can be downloaded from this [link](https
   - Forgot password function is actually generate new password
   - Users can create accounts with less than 8 characters on password field
     
- The complete bug reports can be found here: [Bugs.pdf](https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/Bugs.pdf)
+ The complete bug reports generated from Jira can be downloaded here: [Bugs.pdf](https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/Bugs.pdf)
 
 
 ## 1.7 Test Completion
