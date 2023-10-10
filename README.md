@@ -151,7 +151,7 @@ are: Use case testing, boundry-value analysis, negative testing.
 **Test cases:**
 <img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testcases.png"/>
 
-All the test cases exported into a xlsx can be downloaded from this link: [example](https://github.com/AdrianSandu92/Manual-Testing-Project/raw/main/files/testcases.xlsx)
+All the test cases exported into a xlsx can be downloaded from this [link](https://github.com/AdrianSandu92/Manual-Testing-Project/raw/main/files/testcases.xlsx)
 
 ## 1.5 Test Implementation
 
