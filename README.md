@@ -111,7 +111,7 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 ## 1.2 Test Monitoring and Control
 
 Test monitoring and control will be done by generating periodic reports that reflect the current status of the tests.
-<img src="https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/testexecutions.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testcases.png"/>
 
 ## 1.3 Test Analysis
 
@@ -145,25 +145,11 @@ The testing process will be executed based on the above requirements for the Dep
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
 are: Use case testing, boundry-value analysis, negative testing.
-1. User Registration Test Case
-2. Login Functionality Test Case
-3. User Profile Update Test Case
-4. Password Reset Test Case
-5. User Dashboard Test Case
-6. User Account Settings Test Case
+
 
 **Test cases:**
-- AS-35 Verify if the user is able to create a new account
-- AS-9 Verify if the user can login into his account
-- AS-22 Verify if the user can access his already created account
-- AS-15 Verify the "Forgot password" function
-- AS-20 Verify if the user can add products to cart
-- AS-28 Verify if an user can add products to wishlist
-- AS-25 Verify if the user is able to add his own car model into his account dashboard.
-- AS-18 Verify if the user can search by chasis code (VIN)
-- AS-19 Verify if the user can search products by universal name or product code
-- AS-21 Verify if the user can find parts for a specific car
-- AS-33 Verify the GUI elements from the website
+<img src="https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/testcases.png?raw=true"/ >
+
 Example of test case with examples can be found here: [example](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/AS-2.pdf)
 
 ## 1.5 Test Implementation
