@@ -111,7 +111,7 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 ## 1.2 Test Monitoring and Control
 
 Test monitoring and control will be done by generating periodic reports that reflect the current status of the tests.
-<img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testexecutions.png"/>
+<img src="https://github.com/AdrianSandu92/Manual-Testing-Project/blob/main/files/testexecutions.png?raw=true"/>
 
 ## 1.3 Test Analysis
 
