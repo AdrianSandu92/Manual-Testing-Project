@@ -151,11 +151,9 @@ are: Use case testing, boundry-value analysis, negative testing.
 **Test cases:**
 <img src="https://raw.githubusercontent.com/AdrianSandu92/Manual-Testing-Project/main/files/testcases.png"/>
 
-Example of test case with examples can be found here: [example](https://github.com/AdrianSandu92/Proiect-practic-testare-manuala/blob/main/AS-2.pdf)
+All the test cases exported into a xlsx can be downloaded from this link: [example](https://github.com/AdrianSandu92/Manual-Testing-Project/raw/main/files/testcases.xlsx)
 
 ## 1.5 Test Implementation
-
-The following elements are needed to be ready before the test execution phase begins:
 
 * The following elements need to be ready before the test execution phase begins:
 - Test environment setup
